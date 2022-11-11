@@ -3,7 +3,7 @@ env:
   CONTAINER_REGISTRY: handson022022jcqujd3euscw2.azurecr.io # Azure Container Registry のドメイン (~.azurecr.io) をこちらに設定
   # Add envs
   RESOURCE_GROUP_NAME: Handson01-CICD
-  CONTAINERAPP_NAME: cae-demo-containerapp
+  CONTAINERAPP_NAME: ctapp-demo-api
 on:
   # 手動実行用トリガー
   workflow_dispatch:      
