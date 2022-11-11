@@ -6,7 +6,12 @@ env:
   CONTAINERAPP_NAME: ctapp-demo-api
 on:
   # 手動実行用トリガー
-  workflow_dispatch:      
+  workflow_dispatch:  
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
 jobs:
   build:
     runs-on: ubuntu-22.04
